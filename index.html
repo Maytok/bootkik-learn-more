@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Bootkik - Learn More</title>
+
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+		<link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="./images/favicon/favicon.ico" type="image/x-icon">
+
+		<link rel="stylesheet" href="css/bastemp.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/hover.css">  
+
+		<script>
+			var video = document.getElementById("myVideo");
+			var btn = document.getElementById("myBtn");
+
+			function myFunction() {
+				if (video.paused) {
+					video.play();
+					btn.innerHTML = "Pause";
+				} else {
+					video.pause();
+					btn.innerHTML = "Play";
+				}
+			}
+		</script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	
+		<script>
+			$(document).ready(function(){
+	  // Add smooth scrolling to all links
+	  $("a").on('click', function(event) {
+
+	    // Make sure this.hash has a value before overriding default behavior
+	    if (this.hash !== "") {
+	      // Prevent default anchor click behavior
+	      event.preventDefault();
+
+	      // Store hash
+	      var hash = this.hash;
+
+	      // Using jQuery's animate() method to add smooth page scroll
+	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+	      $('html, body').animate({
+	      	scrollTop: $(hash).offset().top
+	      }, 800, function(){
+
+	        // Add hash (#) to URL when done scrolling (default click behavior)
+	        window.location.hash = hash;
+	    });
+	    } // End if
+	});
+	});
+</script>  
+
+</head>
+
+
+<body>
+	<a href="/"><button id="login" class="w_100 spaceInAll_smaller topright lodbtn hvr-bob" type="submit">Back</button></a>		
+	<div id="top"></div>
+	<div class="paddy"></div>
+	<a href="#top" class="tcom-back-to-top is-on"><svg class="icon icon-back-to-top" xmlns="http://www.w3.org/2000/svg" width="16" height="24"><g fill-rule="evenodd" clip-rule="evenodd" fill="#303642"><path d="M0 0h16v2H0zM7.983 5.09L.428 12.04l1.093 1.12 5.605-5.356V24h1.75V7.833l5.626 5.252 1.072-1.097"></path></g></svg></a>
+	<div class="paddy"></div>
+
+	<section id="scroll_down" class="full_min_h hero section_middle_center w_100">	
+		<h1 class="caption w_90 align_center"><i class="far fa-check-circle"></i> The Recipe for <strong>Success</strong></h1>
+		<div class="wrapper">
+			<button type="button" class="scroll_down" id="scroll_down"></button>
+		</div>
+	</section>
+
+	<div class="separate w_100">&nbsp;</div>
+
+	<section class="section_top_center w_100">
+		<div class="w_80 section_top_center">		
+			<div class="w_100 w_60_desktop section_top_justify">
+				<h4 class="w_100">MAKE PROGRESS</h4>
+				<h2 class="w_100">Their Knowledge, Your Power</h2>
+				<p class="w_100">
+					In a single click, start making progress on your biggest ideas & your best self. Bootkik has step-by-step guidance from experts, authors, and influencers on everything from ‘hiring your first employee,’ to ‘growing your instagram following,’ or even ‘becoming more productive.’
+				</p>
+				<iframe width="913.42" height="514" src="https://www.youtube.com/embed/EnYnZhRdYRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>						
+			</div>
+		</section>
+
+	<div class="separate w_100">&nbsp;</div>
+
+		<section class="section_top_center w_100 paddingTop">
+			<div class="w_80 section_top_center">		
+				<div class="w_100 w_60_desktop section_top_justify">
+					<h4 class="w_100">SHARE</h4>
+					<h2 class="w_100">Make Connections, not Impressions.  </h2>
+					<p class="w_100">
+						Connect with an influential leader, or become one yourself. Entrepreneurs & experts in marketing, strategy, leadership, and more are using Bootkik to share their expertise with the world.
+					</p>
+				<img src="./images/makeconnection.png" alt="recipes" class="responsive" width="100%" height="100%">									
+				</div>
+			</section>
+
+	<div class="separate w_100">&nbsp;</div>
+
+		<section class="section_top_center w_100 paddingTop">
+			<div class="w_80 section_top_center">		
+				<div class="w_100 w_60_desktop section_top_justify">
+					<h4 class="w_100">WANT TO KNOW HOW?</h4>					
+					<h2 class="w_100">Let’s get started.</h2>
+					<div class="padding"><a href="/" class="hvr-sweep-to-top-gm gbtn border"><i class="fab fa-google"></i> Sign Up with Google</a></div>
+					<div class="padding"><a href="/" class="hvr-sweep-to-top-l lbtn border"><i class="fab fa-linkedin-in"></i> Sign Up with LinkedIn</a></div>
+					<div class="padding"><a href="/" class="hvr-sweep-to-top btn border"><i class="fas fa-envelope"></i> Sign Up via Email</a></div>		
+				</div>
+			</section>
+
+	<div class="separate w_100">&nbsp;</div>
+
+			<script src="./js/script.js"></script>						
+		</body>
+		</html>
