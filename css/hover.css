@@ -25,6 +25,27 @@
   transform: scale(1.1);
 }
 
+.gbtn:hover, .gbtn:focus, .gbtn:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background: none;
+  color: rgb(199,22,16);
+}
+
+.lbtn:hover, .lbtn:focus, .lbtn:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background: none;
+  color: rgb(0, 119, 181);
+}
+
+.btn:hover, .btn:focus, .btn:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  background: none;
+  color: rgb(60, 190, 183);
+}
+
 /* Shrink */
 .hvr-shrink {
   display: inline-block;
